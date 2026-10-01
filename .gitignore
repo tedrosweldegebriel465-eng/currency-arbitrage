@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+
+*.db
+*.sqlite
+*.sqlite3
+
+*.log
+
+data/arbitrage_history.db
+data/test_history.db
+
+# Generated exports (all formats)
+arbitrage_analysis_*.csv
+arbitrage_analysis_*.json
+arbitrage_analysis_*.xlsx
+complete_analysis_*.csv
+complete_analysis_*.json
+complete_analysis_*.xlsx
+arbitrage_results_*.txt
+arbitrage_results_*.xlsx
+shortest_paths_*.csv
+
+# Generated output directory (reports, charts, HTML, PDF)
+output/reports/
+output/*.html
+output/*.pdf
+output/*.png
+
+# Test-generated snapshots written directly to data/
+data/snapshot_*.csv
+
+dist/
+build/
+*.egg-info/
